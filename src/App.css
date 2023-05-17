@@ -1,0 +1,66 @@
+body {
+  background-color: #1A1A1D;
+  color: white;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.search {
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.search-bar {
+  width: 500px;
+  height: 30px;
+  font-size: 15px;
+  background-color: transparent;
+  color: white;
+
+}
+
+.search-button {
+  height: 35px;
+  
+}
+
+.movie-container {
+  width: 800px;
+  background-color: #29292d;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.movie-text-container {
+  margin-right: 30px;
+}
+
+.watchlist-button {
+  width: 130px;
+  height: 30px;
+  font-size: 15px;
+}
+
+h1 {
+  color: #b91c37;
+  font-size: 50px;
+}
